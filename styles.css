@@ -6,19 +6,21 @@ body{
 
 .header{
     height: auto;
-    width: 100%;
-    background-color: aqua;
+    width: auto;
     border-radius: 5%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 5% 2% 5%;
 
 }
 
 .initials{
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 .extreme{
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 500;
+    gap: 2rem;
 }
