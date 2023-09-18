@@ -5,8 +5,16 @@ body{
 }
 
 .header{
-    height: 10vh;
+    height: auto;
     width: 100%;
     background-color: aqua;
     border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.extreme{
+    font-size: 2rem;
+    font-weight: 500;
 }
