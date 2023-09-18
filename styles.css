@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color :white;
+    
 
 }
 
@@ -34,4 +35,18 @@ a:visited{
 .extreme img{
     height: 3rem;
     width: 3rem;
+}
+
+.landing{
+    height: 80vh;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 2rem 8rem 2rem 8rem;
+    font-size: 6rem;
+    font-weight: 800;
+    align-items: center;
+    justify-items: center; 
+
 }
