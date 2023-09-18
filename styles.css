@@ -53,7 +53,7 @@ a:visited{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
-    margin: 2rem 7rem 2rem 7rem;
+    margin: 0rem 7rem 0 7rem;
     font-size: 6rem;
     font-weight: bolder;
     align-items: center;
@@ -77,3 +77,16 @@ animation-iteration-count: infinite;
     height: 25rem;
 }
 
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.downarrow{
+    height: 4rem;
+}
