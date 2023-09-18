@@ -15,9 +15,14 @@ body{
 
 }
 
+a:visited{
+    color:white;
+  }
+
 .initials{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
+    padding-left: 5rem;
 }
 .extreme{
     font-size: 32px;
