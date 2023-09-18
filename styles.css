@@ -1,3 +1,11 @@
+@keyframes change {
+    0%   {color:red; }
+    25%  {color:yellow; }
+    50%  {color:blue; }
+    75%  {color:green; }
+    100% {color:red;}
+  }
+
 body{
     background-color: black;
     color :white;
@@ -12,7 +20,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2% 5% 2% 5%;
+    padding: 2% 15% 2% 5%;
 
 }
 
@@ -41,12 +49,19 @@ a:visited{
     height: 80vh;
     width: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
-    margin: 2rem 8rem 2rem 8rem;
+    margin: 2rem 7rem 2rem 7rem;
     font-size: 6rem;
-    font-weight: 800;
+    font-weight: bolder;
     align-items: center;
     justify-items: center; 
 
+}
+.landing img{
+    height: 25rem;
+}
+
+.animate{
+animation-name: change;
 }
