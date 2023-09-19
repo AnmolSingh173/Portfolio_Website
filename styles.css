@@ -22,11 +22,7 @@ body{
     box-sizing: border-box;
 }
  
-hr{
-    width: 80%;
-    margin: 2px;
-    
-}
+
 .navbar{
     color: white;
     width: 70%;
