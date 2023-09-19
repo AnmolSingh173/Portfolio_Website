@@ -71,7 +71,7 @@ body{
 
 .playful{
     animation-name: colorchange;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 .content img{
@@ -162,7 +162,7 @@ body{
 
 .playful{
     animation-name: colorchange;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 .content img{
