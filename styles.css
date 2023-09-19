@@ -188,6 +188,7 @@ body{
 .project-button svg {
     display: block;
     margin: .4rem auto;
+    width: .7rem;
 }
 
 
