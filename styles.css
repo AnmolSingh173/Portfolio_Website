@@ -91,3 +91,93 @@ animation-iteration-count: infinite;
 .downarrow{
     height: 3rem;
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: black;
+        color :white;
+        font-family:  'Raleway',sans-serif;
+        display: flex;
+    
+    }
+    
+    .header{
+        height: 11vh;
+        width: 95%;
+        
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 1rem;
+        }
+    
+    a:visited{
+        color:white;
+      }
+    
+    .initials{
+        font-size: 1.75rem;
+    }
+    .extreme{
+        font-size: 15px;
+        font-weight: 500;
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .extreme img{
+        height: 2rem;
+        width: auto;
+    }
+    
+    .landing{
+        padding-top: 12rem;
+        padding-left: 1rem;
+        width: 95%;
+        height: 100vh;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        margin: auto;
+        font-size: 2rem;
+        font-weight: bolder;
+        align-items: center;
+        justify-items: center; 
+    
+    } 
+    .landing img{
+        height:120px;
+        width: 100px;
+    }
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro{
+        font-size: 0.5rem;
+        padding-top: 3rem;
+        font-weight: 200;
+    }
+    .animate{
+    animation-name: achange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+   
+    
+    .projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-top:2rem ;
+    }
+    
+    .downarrow{
+        height: 3rem;
+    }
+}
