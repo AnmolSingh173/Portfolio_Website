@@ -27,7 +27,7 @@ body{
     width: 70%;
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    margin-top: 1rem;
 }
 .navbar a{
     text-decoration: none;
@@ -86,6 +86,27 @@ body{
     margin-block-start: 1em;
     margin-block-end: 1em;
     text-align: left;
+}
+
+
+
+/* projects section  */
+.project-button{
+    background-color: #121212;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 2rem auto;
+    outline: none;
+}
+
+.project-button svg {
+    display: block;
+    margin: .4rem auto;
+    width: 1.1rem;
 }
 
 /* ---media query--- */
@@ -157,5 +178,17 @@ body{
     margin-block-end: 1em;
     text-align: left;
 }
+  
+/* projects section  */
+.project-button{
+    font-size: .9rem;
+    margin: 5rem auto;
+}
+
+.project-button svg {
+    display: block;
+    margin: .4rem auto;
+}
+
 
 }
