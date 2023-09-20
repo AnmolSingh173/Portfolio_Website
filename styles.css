@@ -20,7 +20,11 @@ body{
 *{
     font-family: 'Raleway',sans-serif;
     box-sizing: border-box;
+    color:#fff; 
+    text-decoration: none;
 }
+
+
  
 
 .navbar{
