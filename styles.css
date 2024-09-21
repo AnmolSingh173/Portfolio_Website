@@ -116,6 +116,41 @@ body{
     width: 1.1rem;
 }
 
+/* Project section changes go here  */
+
+.project{
+    padding: 1rem 6rem 0;
+    height: 75vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.project img{
+    height: auto;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 2.8px 2.2px hsla(0, 0%, 83%, .02), 0 6.7px 5.3px hsla(0, 0%, 83%, .028), 0 12.5px 10px hsla(0, 0%, 83%, .035), 0 22.3px 17.9px hsla(0, 0%, 83%, .042), 0 41.8px 33.4px hsla(0, 0%, 83%, .05), 0 100px 80px hsla(0, 0%, 83%, .07);
+}
+
+.projectDescription{
+height: auto;
+width: 50%;
+padding: 2rem 2rem 2rem ;
+font-weight: 300;
+color: #a9a9a9;
+}
+
+.project button{
+    background-color: white;
+    color: black;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 20px;
+    font-weight: 12px;
+}
 /* ---media query--- */
 @media only screen and (max-width:600px) {
     .navbar{
