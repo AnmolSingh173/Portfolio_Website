@@ -58,8 +58,6 @@ body{
     width: auto;
 }
 
-
-
 /* second part of the site */
 .content{
     padding-top: 4rem;
@@ -117,7 +115,6 @@ body{
 }
 
 /* Project section changes go here  */
-
 .project{
     padding: 1rem 6rem 0;
     height: 75vh;
@@ -170,7 +167,33 @@ color: #a9a9a9;
 }
 
 /* This is the code for the Connect with me section */
+.connect{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 4rem;
+    font-weight: bolder;
+}
 
+.connect ul {
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    gap: 3rem;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.cwm{
+    color: white; 
+}
+.logos img{
+    height: 2.5rem;
+    width: auto;
+}
 /* ---media query--- */
 @media only screen and (max-width:600px) {
     .navbar{
