@@ -10,6 +10,7 @@ Welcome to my Personal Portfolio Website! This project showcases my journey as a
 
 - HTML5
 - CSS3
+- JavaScript
 - Google Fonts
 - Font Awesome Icons
 
