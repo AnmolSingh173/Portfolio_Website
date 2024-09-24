@@ -18,3 +18,5 @@ Welcome to my Personal Portfolio Website! This project showcases my journey as a
 
 This project is my personal portfolio website, where I have poured my creativity and technical skills to create a space that represents me as a web developer and an individual. 
  
+##Preview
+![Tic Tac Toe Screenshot](https://github.com/AnmolSingh173/Portfolio_Website/blob/main/Image%20Resources/portfolioWebsite.png)
