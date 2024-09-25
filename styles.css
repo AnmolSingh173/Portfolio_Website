@@ -183,9 +183,7 @@ color: #a9a9a9;
 }
 
 .cwm{
-        animation-name: colorchange;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    color: white;
 }
 .logos img{
     height: 2.5rem;
