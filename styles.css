@@ -191,7 +191,8 @@ color: #a9a9a9;
 
 
 
-/* ---media query--- */
+/* ---media queries goes here --- */
+
 @media only screen and (max-width:600px) {
     .navbar{
         color: white;
@@ -261,7 +262,7 @@ color: #a9a9a9;
     text-align: left;
 }
   
-/* projects section  */
+/* projects Button below the landing page of the site  */
 .project-button{
     font-size: .9rem;
     margin: 5rem auto;
@@ -271,4 +272,54 @@ color: #a9a9a9;
     width: .7rem;
 }
 
+
+/* projects section  */
+.project{
+height: auto;
+width: 100%;
+padding:  0 2% 8% 2%;
+}
+
+/* .project img{
+ update this when added unifom sized imgages and replaced current ones
+} */
+
+.projectDescription{
+font-size: 15px;
+padding: 0 2% 0 2%;
+}
+
+
+.project button{
+font-size: small;
+height: fit-content;
+width: 5rem;
+}
+
+#visit{
+    font-size: medium;
+    font-weight: bold;
+    height: auto;
+    background-color: black;
+    border: solid white 2px;
+    margin-top: 2%;
+}
+
+
+
+/* Connect with me section goes here */
+.connect{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.connect ul {
+    gap: 2rem;
+}
+
+.logos img{
+    height: 2rem;
+    width: auto;
+}
 }
