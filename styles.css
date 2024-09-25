@@ -1,9 +1,9 @@
 @keyframes colorchange {
-    0%   {color:red; }
+    0%   {color:rgb(255, 0, 0); }
     25%  {color:yellow; }
-    50%  {color:blue; }
+    50%  {color:rgb(58, 58, 248); }
     75%  {color:green; }
-    100% {color:red; }
+    100% {color:rgb(255, 0, 0); }
   }
 
 
@@ -169,6 +169,7 @@ color: #a9a9a9;
     flex-direction: column;
     font-size: 4rem;
     font-weight: bolder;
+
 }
 
 .connect ul {
@@ -182,7 +183,9 @@ color: #a9a9a9;
 }
 
 .cwm{
-    color: white; 
+        animation-name: colorchange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .logos img{
     height: 2.5rem;
