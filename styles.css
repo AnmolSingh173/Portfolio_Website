@@ -193,7 +193,7 @@ color: #a9a9a9;
 
 /* ---media queries goes here --- */
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:885px) {
     .navbar{
         color: white;
         width: 90%;
@@ -277,14 +277,20 @@ color: #a9a9a9;
 .project{
 height: auto;
 width: 100%;
-padding:  0 2% 8% 2%;
+padding:  0 2% 5rem 2%;
+display: flex;
+flex-direction: column;
+justify-content: left;
 }
 
-/* .project img{
- update this when added unifom sized imgages and replaced current ones
-} */
+.project img{
+    height: auto;
+    width: 90%;
+}
 
 .projectDescription{
+width: 90%;
+text-align: left;
 font-size: 15px;
 padding: 0 2% 0 2%;
 }
